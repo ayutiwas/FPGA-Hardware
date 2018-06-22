@@ -1,0 +1,31 @@
+# do Energy_Channel_Sensing_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying /home/wsrg/intelFPGA_lite/17.0/modelsim_ase/linuxaloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/source {/home/wsrg/verilog/research-ayush/source/comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:31:52 on Jun 15,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/wsrg/verilog/research-ayush/source" /home/wsrg/verilog/research-ayush/source/comparator.v 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 16:31:52 on Jun 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/source {/home/wsrg/verilog/research-ayush/source/square_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:31:52 on Jun 15,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/wsrg/verilog/research-ayush/source" /home/wsrg/verilog/research-ayush/source/square_adder.v 
+# -- Compiling module square_adder
+# 
+# Top level modules:
+# 	square_adder
+# End time: 16:31:52 on Jun 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

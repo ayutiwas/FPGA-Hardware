@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Jun 19 15:54:22 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : Energy_Channel_Sensing
+Top-level Entity Name : Energy_Channel_Sensing
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 22
+Total pins : 6
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 6
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

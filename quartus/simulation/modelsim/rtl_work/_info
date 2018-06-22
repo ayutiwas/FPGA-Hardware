@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/wsrg/verilog/research-ayush/quartus/simulation/modelsim
+vcomparator
+Z1 !s110 1497558712
+!i10b 1
+!s100 EhghKXgQ2W>YXYPiXARWf0
+ICLDZzm6b@EzVe4H]O=U7h3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1496934922
+8/home/wsrg/verilog/research-ayush/source/comparator.v
+F/home/wsrg/verilog/research-ayush/source/comparator.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1497558712.000000
+!s107 /home/wsrg/verilog/research-ayush/source/comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/source|/home/wsrg/verilog/research-ayush/source/comparator.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/source
+Z7 tCvgOpt 0
+vsquare_adder
+R1
+!i10b 1
+!s100 gNNS6nbRD[5j@m3FC[RQ81
+IYn@djD7d<Tb8Ncn?DVn9V3
+R2
+R0
+w1497558030
+8/home/wsrg/verilog/research-ayush/source/square_adder.v
+F/home/wsrg/verilog/research-ayush/source/square_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/source/square_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/source|/home/wsrg/verilog/research-ayush/source/square_adder.v|
+!i113 1
+R5
+R6
+R7

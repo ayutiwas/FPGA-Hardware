@@ -1,0 +1,288 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/wsrg/intelFPGA_lite/17.0/modelsim_ase/linuxaloem
+v\ADC_to_Signed_tb.v 
+!s110 1496849818
+!i10b 1
+!s100 Jc=B_CF7b_F35AFMn;DVg2
+I]36MRj@JIlb9D7fYa19P]0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 d/home/wsrg/verilog/research-ayush/Modelsim
+w1496849032
+8/home/wsrg/verilog/research-ayush/source/ADC_to_Signed_tb.v
+F/home/wsrg/verilog/research-ayush/source/ADC_to_Signed_tb.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1496849818.000000
+!s107 /home/wsrg/verilog/research-ayush/source/ADC_to_Signed_tb.v|
+!s90 -reportprogress|300|-work|working|-stats=none|/home/wsrg/verilog/research-ayush/source/ADC_to_Signed_tb.v|
+!i113 1
+Z3 o-work working
+Z4 tCvgOpt 0
+n@134@a@d@c_to_@signed_tb.v@040
+v\comparator_tb.v 
+Z5 !s110 1498086530
+!i10b 1
+!s100 Z=bj1ZQ2;bRXECiBJckbC2
+ImOZAfSeJ3GFU]]9E4UH=82
+R0
+R1
+w1497994391
+8/home/wsrg/verilog/research-ayush/source/comp_tb.v
+F/home/wsrg/verilog/research-ayush/source/comp_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z6 !s108 1498086530.000000
+!s107 /home/wsrg/verilog/research-ayush/source/comp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/comp_tb.v|
+!i113 1
+Z7 o-work work
+R4
+n@134comparator_tb.v@040
+v\control_unit_tb.v 
+!s110 1496945388
+!i10b 1
+!s100 5[gN>7KDDAAKS5hdYh4c70
+I63;ei4UVSdg@m>cA;7z?H3
+R0
+R1
+w1496945357
+8/home/wsrg/verilog/research-ayush/source/control_unit_tb.v
+F/home/wsrg/verilog/research-ayush/source/control_unit_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1496945388.000000
+!s107 /home/wsrg/verilog/research-ayush/source/control_unit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/control_unit_tb.v|
+!i113 1
+R7
+R4
+n@134control_unit_tb.v@040
+v\tb.v 
+Z8 !s110 1498497069
+!i10b 1
+!s100 d4;j@WaO_YA]2Y]3WmJo03
+IVbIKbIfec8z^44^=nNBFV0
+R0
+R1
+w1498496585
+8/home/wsrg/verilog/research-ayush/tb.v
+F/home/wsrg/verilog/research-ayush/tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z9 !s108 1498497069.000000
+!s107 /home/wsrg/verilog/research-ayush/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/tb.v|
+!i113 1
+R7
+R4
+n@134tb.v@040
+vADC_to_Signed
+!s110 1496934009
+!i10b 1
+!s100 4enQ?ABY>F]2Ba1mW8[DC0
+I@=]e]DBChUbiNUZ7F=6lH1
+R0
+R1
+w1496934000
+8/home/wsrg/verilog/research-ayush/source/ADC_to_Signed.v
+F/home/wsrg/verilog/research-ayush/source/ADC_to_Signed.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1496934009.000000
+!s107 /home/wsrg/verilog/research-ayush/source/ADC_to_Signed.v|
+!s90 -reportprogress|300|-work|working|-stats=none|/home/wsrg/verilog/research-ayush/source/ADC_to_Signed.v|
+!i113 1
+R3
+R4
+n@a@d@c_to_@signed
+vclock_divider
+R5
+!i10b 1
+!s100 O2fX6P4]_PbgI[k46:@B23
+Il_mZeSF;bVR7>^aET_FQ23
+R0
+R1
+w1498086253
+8/home/wsrg/verilog/research-ayush/source/clock_divider.v
+F/home/wsrg/verilog/research-ayush/source/clock_divider.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 /home/wsrg/verilog/research-ayush/source/clock_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/clock_divider.v|
+!i113 1
+R7
+R4
+vcomparator
+R5
+!i10b 1
+!s100 ]UV6G1a5f?Z5S]FP3cncI3
+IhI?a]GP`A6aRe@jk[oe^>3
+R0
+R1
+w1498078376
+8/home/wsrg/verilog/research-ayush/source/comparator.v
+F/home/wsrg/verilog/research-ayush/source/comparator.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 /home/wsrg/verilog/research-ayush/source/comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/comparator.v|
+!i113 1
+R7
+R4
+vcontrol_unit
+!s110 1496936254
+!i10b 1
+!s100 TEKULl^?X0GM7YGGDida^1
+Ii6<=3=z^V<jm2VKgYfjJL1
+R0
+R1
+w1496936201
+8/home/wsrg/verilog/research-ayush/source/control_unit.v
+F/home/wsrg/verilog/research-ayush/source/control_unit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1496936254.000000
+!s107 /home/wsrg/verilog/research-ayush/source/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/control_unit.v|
+!i113 1
+R7
+R4
+vcounter
+!s110 1498503200
+!i10b 1
+!s100 gWDCjUUO64?GJF`HbN>k<2
+IEY2WE[7X>RV^<aLY^_5GK1
+R0
+R1
+w1498503196
+8/home/wsrg/verilog/research-ayush/source/counter.v
+F/home/wsrg/verilog/research-ayush/source/counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1498503200.000000
+!s107 /home/wsrg/verilog/research-ayush/source/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/counter.v|
+!i113 1
+R7
+R4
+vmain
+R5
+!i10b 1
+!s100 BLVYl1V<XBF;:lZk199F30
+IeK2kIaiAmb:N^_[na72U83
+R0
+R1
+w1498086120
+8/home/wsrg/verilog/research-ayush/source/main.v
+F/home/wsrg/verilog/research-ayush/source/main.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 /home/wsrg/verilog/research-ayush/source/main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/main.v|
+!i113 1
+R7
+R4
+vseven_seg
+R5
+!i10b 1
+!s100 gMXAogf4B1=L7O1@[YO3I2
+IP]8ZhglKm@comezj9QlO_2
+R0
+R1
+w1498082511
+8/home/wsrg/verilog/research-ayush/source/seven_seg.v
+F/home/wsrg/verilog/research-ayush/source/seven_seg.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 /home/wsrg/verilog/research-ayush/source/seven_seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/seven_seg.v|
+!i113 1
+R7
+R4
+vsquare_adder
+R8
+!i10b 1
+!s100 ho<i<>G;Uf;Ha@o5zR3<F3
+Ie]bb=d`H6QF2oi]3B[O8e0
+R0
+R1
+w1498496803
+8/home/wsrg/verilog/research-ayush/square_adder.v
+F/home/wsrg/verilog/research-ayush/square_adder.v
+L0 1
+R2
+r1
+!s85 0
+31
+R9
+!s107 /home/wsrg/verilog/research-ayush/square_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/square_adder.v|
+!i113 1
+R7
+R4
+vtest_bench
+R5
+!i10b 1
+!s100 9neH4nXb5>FVhER@JkZd^3
+I`SKi4G3T>b>3mV;F9_8YH2
+R0
+R1
+w1497038931
+8/home/wsrg/verilog/research-ayush/source/test_bench.v
+F/home/wsrg/verilog/research-ayush/source/test_bench.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 /home/wsrg/verilog/research-ayush/source/test_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/wsrg/verilog/research-ayush/source/test_bench.v|
+!i113 1
+R7
+R4

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at square_adder.v(32): always construct contains both blocking and non-blocking assignments File: /home/wsrg/verilog/research-ayush/source/square_adder.v Line: 32

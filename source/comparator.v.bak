@@ -1,0 +1,23 @@
+module comparator(signal_in,
+				  noise_in,
+				  thres,
+				  ready,
+				  out
+				 );
+	
+	input	signed	[29:0]	signal_in;
+	input	signed	[29:0]	noise_in;
+	input			[11:0]	thres;
+	input					ready;
+	
+	output					out;
+	
+	reg						out;
+	
+	always @(posedge ready)	begin
+		if((30'd32*signal_in) > (noise_in * thres))
+			out <= 1;
+		else
+			out <= 0;
+	end
+endmodule

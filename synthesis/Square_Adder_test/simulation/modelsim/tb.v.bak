@@ -1,0 +1,73 @@
+
+`timescale 1ns / 1ns
+module \tb.v   ; 
+ 
+  wire  reg  complete   ; 
+  wire  [29:0]  signal_out   ; 
+  reg    ready   ; 
+  reg  [7:0]  signal_in_imag   ; 
+  reg    done   ; 
+  reg  [7:0]  signal_in_real   ; 
+  square_adder  
+   DUT  ( 
+       .complete (complete ) ,
+      .signal_out (signal_out ) ,
+      .ready (ready ) ,
+      .signal_in_imag (signal_in_imag ) ,
+      .done (done ) ,
+      .signal_in_real (signal_in_real ) ); 
+
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  signal_in_real  = 8'b01111110  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  signal_in_imag  = 8'b01111110  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+
+// "Clock Pattern" : dutyCycle = 50
+// Start Time = 0 ns, End Time = 1 us, Period = 100 ns
+  initial
+  begin
+	  ready  = 1'b0  ;
+	 # 50 ;
+// 50 ns, single loop till start period.
+   repeat(9)
+   begin
+	   ready  = 1'b1  ;
+	  #50  ready  = 1'b0  ;
+	  #50 ;
+// 950 ns, repeat pattern in loop.
+   end
+	  ready  = 1'b1  ;
+	 # 50 ;
+// dumped values till 1 us
+  end
+
+
+// "Constant Pattern"
+// Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  initial
+  begin
+	  done  = 1'b0  ;
+	 # 1000 ;
+// dumped values till 1 us
+  end
+
+  initial
+	#2000 $stop;
+endmodule

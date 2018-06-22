@@ -1,0 +1,24 @@
+transcript on
+if ![file isdirectory Square_adder_test_iputf_libs] {
+	file mkdir Square_adder_test_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vlog "/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/pll_sim/pll.vo"
+
+vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source {/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/main.v}
+vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source {/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/counter.v}
+vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source {/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/square_adder.v}
+vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source {/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/clock_divider.v}
+vlog -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test {/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/seven_seg.v}
+

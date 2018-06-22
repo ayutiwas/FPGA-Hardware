@@ -1,0 +1,51 @@
+module main(clk,
+			thres,
+			out
+		   );
+	
+	input 			clk;
+	input	[11:0]	thres;
+	output			out;
+	
+	wire	out, clk;
+	wire	[11:0]	thres;
+	
+	wire	[7:0]	out_real, out_imag;
+	wire			clk_out, done, comp_signal, comp_noise, ready;
+	wire	[29:0]	signal, noise;
+	
+	
+	
+	counter counter_1(.clk(clk),
+					  .out_real(out_real),
+					  .out_imag(out_imag),
+					  .clk_out(clk_out),
+					  .done(done)
+					 );
+	
+	square_adder sq_signal(.signal_in_real(out_real),
+						   .signal_in_imag(out_imag),
+						   .ready(clk_out),
+						   .done(done),
+						   .signal_out(signal),
+						   .complete(comp_signal)
+						  );
+	
+	square_adder sq_noise(.signal_in_real(out_real),
+						   .signal_in_imag(out_imag),
+						   .ready(clk_out),
+						   .done(done),
+						  .signal_out(noise),
+						  .complete(comp_noise)
+						  );
+	
+	comparator comparator_1(.signal_in(signal),
+							.noise_in(noise),
+							.thres(thres),
+							.ready(ready),
+							.out(out)
+						   );
+	
+	assign ready = comp_noise & comp_signal;
+	
+endmodule

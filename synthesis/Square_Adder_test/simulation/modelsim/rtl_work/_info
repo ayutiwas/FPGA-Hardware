@@ -1,0 +1,140 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/simulation/modelsim
+vclock_divider
+Z1 !s110 1498232491
+!i10b 1
+!s100 JW4WlSfJN7bz=BdZgWi=`1
+I`haiVNFY7n=Leh[j;cc1W0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1498164000
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/clock_divider.v
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/clock_divider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1498232491.000000
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/clock_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/clock_divider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source
+Z7 tCvgOpt 0
+vcounter
+R1
+!i10b 1
+!s100 kghb_RaAmM^K8Ba7fhEY@3
+IoFfTB7]LUM?moLVd_FYJ]3
+R2
+R0
+w1498164345
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/counter.v
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/counter.v|
+!i113 1
+R5
+R6
+R7
+vmain
+R1
+!i10b 1
+!s100 K6oMnJ9^igZadYUEIKUXo2
+IT]m99Xg<R?f?O6aNz[5Q`1
+R2
+R0
+w1498163676
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/main.v
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/main.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/main.v|
+!i113 1
+R5
+R6
+R7
+vpll
+R1
+!i10b 1
+!s100 =@4UejPUkDZ;1?oUFIgaJ2
+IjajBjCN?2d<Q`6ej<zIXn1
+R2
+R0
+w1498163810
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/pll_sim/pll.vo
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/pll_sim/pll.vo
+L0 32
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/pll_sim/pll.vo|
+!s90 -reportprogress|300|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/pll_sim/pll.vo|
+!i113 1
+R7
+vseven_seg
+R1
+!i10b 1
+!s100 gMXAogf4B1=L7O1@[YO3I2
+IY_>;?lzJz5NakZSNY0`iB0
+R2
+R0
+w1498164433
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/seven_seg.v
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/seven_seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/seven_seg.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test
+R7
+vsquare_adder
+R1
+!i10b 1
+!s100 PACFUzeEZXeWg7i91]:>W0
+I1dD6TYEhl]:nGXC0co2;D2
+R2
+R0
+w1498161299
+8/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/square_adder.v
+F/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/square_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/square_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source|/home/wsrg/verilog/research-ayush/synthesis/Square_Adder_test/source/square_adder.v|
+!i113 1
+R5
+R6
+R7

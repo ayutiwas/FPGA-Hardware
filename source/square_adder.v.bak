@@ -1,0 +1,55 @@
+module square_adder(signal_in_real,
+					signal_in_imag,
+					ready,
+					done,
+					signal_out,
+					complete,
+					standby);
+	
+	input			[7:0]	signal_in_real;
+	input			[7:0]	signal_in_imag;
+	input					ready, done;
+	
+	output	signed	[29:0]	signal_out;
+	output					standby,complete;
+	
+	reg		signed	[8:0]	temp_real,temp_imag;
+	reg		signed	[29:0]	signal_out;
+	reg						standby,complete;
+	
+	reg		signed	[29:0]	total;
+	reg				[9:0]	counter;
+	
+	initial
+		begin
+			total = 0;
+			//counter = 0;
+			temp_real = 0;
+			temp_imag = 0;
+		end
+	
+	always @(posedge ready or posedge done) begin
+		if(ready == 1 && done == 0 /*&& counter < 10'b1111111111*/)
+			begin
+				//counter <= counter + 1;
+				temp_real <= (signal_in_real * 2) - 255;
+				temp_imag <= (signal_in_imag * 2) - 255;
+				total <= total + temp_real * temp_real + temp_imag * temp_imag;
+				standby <= 0;
+				complete <= 0;
+			end
+		if(done == 1 )
+			begin
+				standby <= 0;
+				signal_out <= total;
+				complete <= 1;
+				//counter <= 0;
+				total <= 0;
+			end
+		standby <= 1;
+	end
+	
+endmodule
+					
+				
+	
